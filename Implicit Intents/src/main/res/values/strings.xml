@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Implicit Intents</string>
+    <string name="send">Send</string>
+    <string name="display_message">Display Message</string>
+</resources>

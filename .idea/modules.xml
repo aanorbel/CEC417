@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CEC417.iml" filepath="$PROJECT_DIR$/CEC417.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Explicit Intents/Explicit Iintents.iml" filepath="$PROJECT_DIR$/Explicit Intents/Explicit Iintents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Explicit Intents/Explicit Intents.iml" filepath="$PROJECT_DIR$/Explicit Intents/Explicit Intents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Implicit Intents/Implicit Intents.iml" filepath="$PROJECT_DIR$/Implicit Intents/Implicit Intents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practical 1/Practical 1.iml" filepath="$PROJECT_DIR$/Practical 1/Practical 1.iml" />
+    </modules>
+  </component>
+</project>
