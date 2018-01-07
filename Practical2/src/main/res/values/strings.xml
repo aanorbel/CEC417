@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Practical2</string>
+    <string name="simple_text">Simple Text</string>
+    <string name="image_one">Image One</string>
+    <string name="image_two">Image Two</string>
+    <string name="use_white">Use White</string>
+    <string name="use_black">Use Black</string>
+    <string name="show_alert">Show Alert</string>
+    <string name="pass_course">Pass This Course</string>
+    <string name="pass">Pass</string>
+    <string name="cancel">Cancel</string>
 </resources>

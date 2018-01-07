@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/image_1"
+        android:title="@string/image_one" />
+    <item
+        android:id="@+id/image_2"
+        android:title="@string/image_two" />
+    <item
+        android:id="@+id/use_white"
+        android:title="@string/use_white" />
+    <item
+        android:id="@+id/use_black"
+        android:title="@string/use_black" />
+    <item
+        android:id="@+id/show_alert"
+        android:title="@string/show_alert" />
+</menu>
