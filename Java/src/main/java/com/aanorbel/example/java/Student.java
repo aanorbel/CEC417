@@ -6,7 +6,7 @@ import java.util.List;
 public class Student {
 
     private String name;
-    private List<Quiz> quizzes;
+    private List<Integer> quizzes;
 
     public Student() {
         quizzes = new ArrayList<>();
@@ -20,11 +20,11 @@ public class Student {
         this.name = name;
     }
 
-    public List<Quiz> getQuizzes() {
+    public List<Integer> getQuizzes() {
         return quizzes;
     }
 
-    public void addQuiz(Quiz quiz) {
+    public void addQuiz(Integer quiz) {
         this.quizzes.add(quiz);
     }
 
@@ -32,8 +32,8 @@ public class Student {
 
         double total = 0;
 
-        for (Quiz quiz : quizzes) {
-            total += quiz.getScore();
+        for (Integer quiz : quizzes) {
+            total += quiz;
         }
 
         return total / quizzes.size();

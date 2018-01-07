@@ -6,9 +6,9 @@ public class Main {
 
         Student me = new Student();
         me.setName("Me");
-        me.addQuiz(new Quiz("first",32));
-        me.addQuiz(new Quiz("second",34));
-        me.addQuiz(new Quiz("third",35));
+        me.addQuiz(32);
+        me.addQuiz(34);
+        me.addQuiz(35);
 
         me.getQuizzes()
                 .forEach(System.out::println);
