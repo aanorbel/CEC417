@@ -8,7 +8,8 @@ public class Student {
     private String name;
     private List<Integer> quizzes;
 
-    public Student() {
+    public Student(String name) {
+        this.name = name;
         quizzes = new ArrayList<>();
     }
 
@@ -24,18 +25,32 @@ public class Student {
         return quizzes;
     }
 
-    public void addQuiz(Integer quiz) {
+    public void addQuiz(int quiz) {
         this.quizzes.add(quiz);
     }
 
+    /**
+     * provides an average of all the current scores for the quiz
+     *
+     * @return average  score
+     */
     public double getAverageScore() {
 
-        double total = 0;
-
-        for (Integer quiz : quizzes) {
-            total += quiz;
-        }
+        double total = quizzes.stream()
+                .mapToDouble(quiz -> quiz)
+                .sum();
 
         return total / quizzes.size();
+    }
+
+    /**
+     * sums all the marks of the quiz
+     *
+     * @return total
+     */
+    public double getTotalScore() {
+
+        return quizzes.stream().mapToDouble(quiz -> quiz).sum();
+
     }
 }
