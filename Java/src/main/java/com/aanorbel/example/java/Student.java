@@ -10,7 +10,7 @@ public class Student {
 
     public Student(String name) {
         this.name = name;
-        quizzes = new ArrayList<>();
+        this.quizzes = new ArrayList<>();
     }
 
     public String getName() {
