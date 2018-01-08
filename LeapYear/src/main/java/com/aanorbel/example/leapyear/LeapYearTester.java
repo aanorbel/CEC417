@@ -1,9 +1,10 @@
 package com.aanorbel.example.leapyear;
 
 public class LeapYearTester {
+
     public static void main(String[] args) {
 
-        System.out.println("All Leap Years Between 2001 and 2100");
+        System.out.println("All Leap Years Between 2001 and 2100 \n");
 
         int count = 0;
 
